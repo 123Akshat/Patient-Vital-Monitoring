@@ -141,13 +141,3 @@ Patient-Vital-Monitoring-GCP/
 - ✅ Fully automated, event-driven pipeline — **zero manual triggers**
 - ✅ Deploying and monitoring streaming jobs via **GCP Console**
 
----
-
-## 👤 Author
-
-**Jay** — Aspiring Data Engineer
-🔗 [GitHub](https://github.com/Jay61616)
-
----
-
-> ⭐ If you found this project helpful, consider giving it a star!
