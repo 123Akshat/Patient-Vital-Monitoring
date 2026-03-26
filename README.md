@@ -83,6 +83,5 @@ The live dashboard tracks per-patient metrics in real time:
 - ✅ Multi-layer data architecture using **Medallion (Bronze/Silver/Gold)**
 - ✅ Scalable cloud data warehousing with **BigQuery**
 - ✅ Real-time visualization in **Power BI**
-- ✅ Fully automated, event-driven pipeline — **zero manual triggers**
 - ✅ Deploying and monitoring streaming jobs via **GCP Console**
 
