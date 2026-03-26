@@ -21,7 +21,8 @@ Data Source → Pub/Sub (Streaming) → Dataflow + Apache Beam (Processing)
            → BigQuery [Bronze → Silver → Gold] → Power BI (Dashboard)
 ```
 
-![Pipeline Architecture](./architecture.png)
+![Pipeline Architecture]<img width="358" height="178" alt="Picture2" src="https://github.com/user-attachments/assets/7eefd5e3-4e52-4019-aa30-3226cab7c080" />
+
 
 > **Medallion Architecture** is used across three BigQuery layers:
 > - 🥉 **Bronze** — Raw ingested data
