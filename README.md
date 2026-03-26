@@ -84,34 +84,6 @@ The live dashboard tracks per-patient metrics in real time:
 - Python 3.8+
 - GCP SDK installed and authenticated
 
-### Steps
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/Jay61616/Patient-Vital-Monitoring-GCP.git
-cd Patient-Vital-Monitoring-GCP
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Set your GCP project
-gcloud config set project YOUR_PROJECT_ID
-
-# 4. Create Pub/Sub topic and subscription
-gcloud pubsub topics create patient_vitals_stream
-gcloud pubsub subscriptions create patient_vitals_subscription --topic=patient_vitals_stream
-
-# 5. Run the data publisher
-python publisher.py
-
-# 6. Deploy the Dataflow pipeline
-python dataflow_pipeline.py \
-  --runner=DataflowRunner \
-  --project=YOUR_PROJECT_ID \
-  --region=us-central1 \
-  --temp_location=gs://YOUR_BUCKET/staging
-```
-
 ---
 
 ## 📁 Project Structure
