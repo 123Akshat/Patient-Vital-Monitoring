@@ -76,30 +76,6 @@ The live dashboard tracks per-patient metrics in real time:
 
 ---
 
-## 🚀 How to Run
-
-### Prerequisites
-- GCP account with billing enabled
-- Python 3.8+
-- GCP SDK installed and authenticated
-
----
-
-## 📁 Project Structure
-
-```
-Patient-Vital-Monitoring-GCP/
-│
-├── publisher.py              # Simulates & publishes patient vitals to Pub/Sub
-├── dataflow_pipeline.py      # Apache Beam pipeline (Dataflow runner)
-├── requirements.txt          # Python dependencies
-├── architecture.png          # Pipeline architecture diagram
-├── dashboard.png             # Power BI dashboard screenshot
-└── README.md                 # Project documentation
-```
-
----
-
 ## 💡 Key Learnings
 
 - ✅ Real-time streaming data ingestion using **Pub/Sub**
