@@ -20,9 +20,7 @@ A fully automated, **end-to-end real-time data engineering pipeline** built on *
 Data Source → Pub/Sub (Streaming) → Dataflow + Apache Beam (Processing)
            → BigQuery [Bronze → Silver → Gold] → Power BI (Dashboard)
 ```
-
-![Pipeline Architecture]<img width="358" height="178" alt="Picture2" src="https://github.com/user-attachments/assets/7eefd5e3-4e52-4019-aa30-3226cab7c080" />
-
+<img width="358" height="178" alt="Picture2" src="https://github.com/user-attachments/assets/7eefd5e3-4e52-4019-aa30-3226cab7c080" />
 
 > **Medallion Architecture** is used across three BigQuery layers:
 > - 🥉 **Bronze** — Raw ingested data
@@ -64,7 +62,7 @@ The live dashboard tracks per-patient metrics in real time:
 - 🌡️ **Temperature AVG**
 - ⚠️ **Risk Level** (Low / Moderate / High)
 
-![Dashboard](./dashboard.png)
+<img width="380" height="224" alt="Picture3" src="https://github.com/user-attachments/assets/3758d85c-235e-4fa6-ad50-887811acd87a" />
 
 ---
 
