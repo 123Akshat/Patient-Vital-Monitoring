@@ -10,9 +10,7 @@
 
 ## 📌 Project Overview
 
-A fully automated, **end-to-end real-time data engineering pipeline** built on **Google Cloud Platform** that streams live patient vitals — heart rate, SpO₂, and body temperature — and delivers live healthcare analytics through a Power BI dashboard.
-
-This project mirrors how **enterprise-grade IoT healthcare systems** manage streaming patient data for real-time decision-making — all inside GCP's modern data ecosystem.
+A fully automated, **end-to-end real-time data engineering pipeline** built on **Google Cloud Platform** that streams live patient vitals, heart rate, SpO₂, and body temperature and delivers live healthcare analytics through a Power BI dashboard.
 
 ---
 
